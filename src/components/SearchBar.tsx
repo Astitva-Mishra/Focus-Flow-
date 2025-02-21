@@ -41,7 +41,7 @@ const SearchBar: React.FC<SearchBarProps> = ({ onSearch, isLoggedIn }) => {
                  bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 
                  placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-500 
                  focus:border-transparent transition duration-150 ease-in-out"
-        placeholder="Search for tasks, resources, or guidance..."
+        placeholder="Search for resources"
         value={query}
         onChange={(e) => handleSearch(e.target.value)}
       />
